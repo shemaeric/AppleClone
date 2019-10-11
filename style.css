@@ -38,6 +38,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   border-radius: 8px;
+  background-image: linear-gradient(#646464, #3a3636);
 }
 
 .logo {
@@ -58,6 +59,14 @@ a {
   align-items: center;
   border-right: 1px solid #575757;
   padding-right: 40px;
+}
+
+.text-content button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #f4f4f4;
 }
 
 .input-cont {
@@ -114,7 +123,7 @@ a {
 }
 
 .march img {
-  width: 98%;
+  width: 100%;
 }
 
 footer {
